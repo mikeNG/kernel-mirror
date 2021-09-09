@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="korg"
+           fetch="https://kernel.googlesource.com/pub/scm/linux/kernel/git/" />
+  <default revision="master"
+           remote="korg"
+           sync-j="4" />
+
+  <project name="torvalds/linux" />
+  <project name="stable/linux" />
+</manifest>
