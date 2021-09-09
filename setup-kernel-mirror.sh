@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-MIRROR_ROOT=/mnt/mirrors/kernel
+MIRROR_ROOT=${MIRROR_ROOT:=/mnt/mirrors/kernel}
+
 TORVALDS_LINUX=linux/torvalds/linux.git
 STABLE_LINUX=linux/stable/linux.git
 GOOGLE_COMMON=aosp/kernel/common.git
