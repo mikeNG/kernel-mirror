@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />
+
+  <project name="kernel/arm64" />
+  <project name="kernel/common" />
+  <project name="kernel/exynos" />
+  <project name="kernel/goldfish" />
+  <project name="kernel/hikey-linaro" />
+  <project name="kernel/mediatek" />
+  <project name="kernel/msm" />
+  <project name="kernel/omap" />
+  <project name="kernel/samsung" />
+  <project name="kernel/tegra" />
+  <project name="kernel/x86_64" />
+  <project name="kernel/x86" />
+</manifest>
