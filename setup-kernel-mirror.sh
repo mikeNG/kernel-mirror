@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 MIRROR_ROOT=/mnt/mirrors/kernel
-TORVALDS_LINUX=/linux/torvalds/linux.git
-STABLE_LINUX=/linux/stable/linux.git
-GOOGLE_COMMON=/aosp/kernel/common.git
+TORVALDS_LINUX=linux/torvalds/linux.git
+STABLE_LINUX=linux/stable/linux.git
+GOOGLE_COMMON=aosp/kernel/common.git
 
 MIRRORS="linux aosp caf"
 
