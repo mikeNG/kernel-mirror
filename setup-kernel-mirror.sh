@@ -8,7 +8,7 @@ GOOGLE_COMMON=aosp/kernel/common.git
 MIRRORS="linux aosp caf"
 
 AOSP_PROJECTS="kernel/arm64.git kernel/exynos.git kernel/goldfish.git kernel/hikey-linaro.git kernel/mediatek.git kernel/msm.git kernel/omap.git kernel/samsung.git kernel/tegra.git kernel/x86_64.git kernel/x86.git"
-CAF_PROJECTS="kernel/msm.git kernel/msm-3.10.git kernel/msm-3.18.git kernel/msm-4.9.git kernel/msm-4.14.git kernel/msm-4.19.git kernel/msm-5.4.git"
+CAF_PROJECTS="kernel/msm.git kernel/msm-3.10.git kernel/msm-3.18.git kernel/msm-4.4.git kernel/msm-4.9.git kernel/msm-4.14.git kernel/msm-4.19.git kernel/msm-5.4.git"
 
 for mirror in ${MIRRORS}; do
 	mkdir -p ${MIRROR_ROOT}/${mirror}
