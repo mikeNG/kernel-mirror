@@ -32,15 +32,15 @@ repo init -u https://github.com/mikeNG/kernel-mirror --mirror --manifest-name ao
 mkdir -p kernel/common.git
 GIT_DIR="kernel/common.git" git init --bare
 echo ${MIRROR_ROOT}/${TORVALDS_LINUX}/objects > kernel/common.git/objects/info/alternates
-echo ${MIRROR_ROOT}/${STABLE_LINUX}/objects > kernel/common.git/objects/info/alternates
+echo ${MIRROR_ROOT}/${STABLE_LINUX}/objects >> kernel/common.git/objects/info/alternates
 repo sync kernel/common
 
 for aosp_project in ${AOSP_PROJECTS}; do
 	mkdir -p $aosp_project
 	GIT_DIR="$aosp_project" git init --bare
 	echo ${MIRROR_ROOT}/${TORVALDS_LINUX}/objects > $aosp_project/objects/info/alternates
-	echo ${MIRROR_ROOT}/${STABLE_LINUX}/objects > $aosp_project/objects/info/alternates
-	echo ${MIRROR_ROOT}/${GOOGLE_COMMON}/objects > $aosp_project/objects/info/alternates
+	echo ${MIRROR_ROOT}/${STABLE_LINUX}/objects >> $aosp_project/objects/info/alternates
+	echo ${MIRROR_ROOT}/${GOOGLE_COMMON}/objects >> $aosp_project/objects/info/alternates
 done
 
 repo sync
@@ -53,8 +53,8 @@ for caf_project in ${CAF_PROJECTS}; do
 	mkdir -p $caf_project
 	GIT_DIR="$caf_project" git init --bare
 	echo ${MIRROR_ROOT}/${TORVALDS_LINUX}/objects > $caf_project/objects/info/alternates
-	echo ${MIRROR_ROOT}/${STABLE_LINUX}/objects > $caf_project/objects/info/alternates
-	echo ${MIRROR_ROOT}/${GOOGLE_COMMON}/objects > $caf_project/objects/info/alternates
+	echo ${MIRROR_ROOT}/${STABLE_LINUX}/objects >> $caf_project/objects/info/alternates
+	echo ${MIRROR_ROOT}/${GOOGLE_COMMON}/objects >> $caf_project/objects/info/alternates
 done
 
 repo sync
