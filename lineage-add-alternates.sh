@@ -3,9 +3,10 @@
 MIRROR_ROOT=${MIRROR_ROOT:=/mnt/mirrors}
 
 LINEAGE_MIRROR=${MIRROR_ROOT}/lineage
-MIRROR_MANIFEST=${MIRROR_ROOT}/mirror-manifest
+MIRROR_MANIFEST=${MIRROR_ROOT}/lineage-mirror-manifest
+KERNEL_MIRROR_MANIFEST=${MIRROR_ROOT}/kernel-mirror-manifest
 
-source ${MIRROR_MANIFEST}/kernel/metadata
+source ${KERNEL_MIRROR_MANIFEST}/lineage-metadata
 
 pushd ${LINEAGE_MIRROR}
 for repo in "${!kernel_map[@]}"; do
