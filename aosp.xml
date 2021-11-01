@@ -11,6 +11,7 @@
   <project name="kernel/common" />
   <project name="kernel/exynos" />
   <project name="kernel/goldfish" />
+  <project name="kernel/gs" />
   <project name="kernel/hikey-linaro" />
   <project name="kernel/mediatek" />
   <project name="kernel/msm" />
