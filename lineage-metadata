@@ -50,6 +50,7 @@ kernel_map[android_kernel_google_crosshatch]=4.9
 kernel_map[android_kernel_google_dragon]=3.18
 kernel_map[android_kernel_google_marlin]=3.18
 kernel_map[android_kernel_google_msm]=3.4
+kernel_map[android_kernel_google_msm-4.14]=4.14
 kernel_map[android_kernel_google_msm-4.9]=4.9
 kernel_map[android_kernel_google_redbull]=4.19
 kernel_map[android_kernel_google_seed]=3.10
