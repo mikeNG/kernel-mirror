@@ -16,6 +16,7 @@ kernel_map[android_kernel_asus_fugu]=3.10
 kernel_map[android_kernel_asus_grouper]=3.1
 kernel_map[android_kernel_asus_moorefield]=3.10
 kernel_map[android_kernel_asus_msm8916]=3.10
+kernel_map[android_kernel_asus_msm8937]=3.18
 kernel_map[android_kernel_asus_msm8953]=3.18
 kernel_map[android_kernel_asus_sdm660]=4.4
 kernel_map[android_kernel_asus_sdm845]=4.9
