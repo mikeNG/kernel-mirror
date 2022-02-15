@@ -127,6 +127,7 @@ kernel_map[android_kernel_motorola_omap4-kexec-common]=3.0
 kernel_map[android_kernel_motorola_otus]=3.4
 kernel_map[android_kernel_motorola_sdm632]=4.9
 kernel_map[android_kernel_motorola_sm7250]=4.19
+kernel_map[android_kernel_motorola_sm8250]=4.19
 kernel_map[android_kernel_motorola_titan]=3.4
 kernel_map[android_kernel_nextbit_msm8992]=3.10
 kernel_map[android_kernel_nokia_sdm660]=4.4
