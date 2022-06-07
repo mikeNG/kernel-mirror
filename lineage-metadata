@@ -7,6 +7,7 @@ kernel_map[android_kernel_amazon_bowser-common]=3.0
 kernel_map[android_kernel_amazon_hdx-common]=3.4
 kernel_map[android_kernel_amazon_otter-common]=3.0
 kernel_map[android_kernel_amlogic_linux-4.9]=4.9
+kernel_map[android_kernel_amlogic_linux-4.9-pie]=4.9
 kernel_map[android_kernel_ark_msm8916]=3.10
 kernel_map[android_kernel_asus_I001]=4.14
 kernel_map[android_kernel_asus_P024]=3.10
